@@ -29,7 +29,7 @@ If you see the following error message:
 ```
 A server is already running. Check /home/user/cs642/bitbar/tmp/pids/server.pid
 ```
-From the bitbar directory run the following commands to delete a stale pid file and restart the rails sever:
+From the bitbar directory run the following commands to delete a stale pid file and restart the rails server:
 ```
 rm tmp/pids/server.pid
 rails server
