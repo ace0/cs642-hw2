@@ -52,7 +52,7 @@ Put your answer in a file named `a.txt`.
 ## Attack B: Cross-Site Request Forgery
 Your solution is a short HTML document named `b.html` that the grader will open using the web browser. The grader will already be logged in to Bitbar before loading your page. Transfer 10 bitbars from the grader's account to the attacker's account. As soon as the transfer is complete, the browser should redirect to `http://pages.cs.wisc.edu/~ace/cs642-spring-2016.html` (fast enough that a casual or distracted user might not notice). The location bar of the browser should not contain `localhost:3000` at any point.
 
-The framebusting code may make this attack harder than necessary. For this attack - and **ONLY** this attack - you may disable framebusting on a page by adding disable `fb=yes` to a URL. For example: `http://localhost:3000?disable_fb=yes`.
+The framebusting code may make this attack harder than necessary. For this attack - and **ONLY** this attack - you may disable framebusting on a page by adding `disable_fb=yes` to a URL. For example: `http://localhost:3000?disable_fb=yes`.
 
 
 ## Attack C: Clickjacking
